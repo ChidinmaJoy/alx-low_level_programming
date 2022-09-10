@@ -3,7 +3,7 @@
 /**
  * main - Prints reserved alphabet.
  *
- * Return - Always 0 (Successful)
+ * Return: Always 0 (Successful)
  */
 int main(void)
 {
