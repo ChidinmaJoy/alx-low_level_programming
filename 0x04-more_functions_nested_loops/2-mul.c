@@ -6,6 +6,6 @@
 * Return: result
 */
 int mul(int a, int b)
-{i
+{
 return (a * b);
 }
