@@ -1,3 +1,4 @@
+#include <string.h>
 #include "main.h"
 
 /**
@@ -9,10 +10,10 @@
  */
 void print_rev(char *str)
 {
-	int j, len = strlen(str);
+	int i, len = strlen(str);
 
-	for (j = len - 1; j >= 0; j--)
-	_putchar(str[j]);
+	for (i = len - 1; i >= 0; i--)
+	_putchar(str[i]);
 
 	_putchar('\n');
 }
