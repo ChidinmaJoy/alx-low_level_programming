@@ -3,10 +3,10 @@
 
 /**
  * _strlen - prints the lenght of a string
- * @s: string varialbe
+ * @s: string variable
  * Return: lenght of the string
  */
-int_strlen(char *s)
+int _strlen(char *s)
 {
 return (strlen(s));
 }
