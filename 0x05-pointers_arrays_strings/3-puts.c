@@ -1,4 +1,3 @@
-#include <string.h>
 #include "main.h"
 
 /**
@@ -8,9 +7,8 @@
  */
 void _puts(char *str)
 {
-	int tr;
+	char ts;
 
-	for (tr = 0; *(str + tr) != '\0'; tr++)
-	_putchar(*(str + tr '\n'));
+	for (ts = 0; *(str + ts) != '\0'; ts++)
+	_putchar(*(str + ts, '\n'));
 }
-
